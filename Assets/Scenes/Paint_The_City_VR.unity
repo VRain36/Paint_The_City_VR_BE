@@ -1622,7 +1622,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 199129901}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9b43244646cb15458efb96e1d0bb951, type: 3}
+  m_Script: {fileID: 11500000, guid: 3730b1efaa00c5f43b6ab11e38556d74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   DonePanel: {fileID: 1061792961}
@@ -1632,10 +1632,10 @@ MonoBehaviour:
   public_mode: 1
   bucketName: ptc-s3-bucket
   fbx_file: 
-  fbx_directory: C:\Users\kna09\Desktop\VR_Backend/Assets/FBXFiles/
-  obj_directory: C:\Users\kna09\Desktop\VR_Backend/Assets/OBJFiles/2023-02-18-10-22-33
-  obj_file: 
-  mtl_file: 
+  fbx_directory: C:\Users\kna09\Desktop\Paint_The_City_VR_BE_Test/Assets/FBXFiles/
+  obj_directory: C:\Users\kna09\Desktop\Paint_The_City_VR_BE_Test/Assets/OBJFiles/2023-02-18-08-03-40
+  obj_file: C:\Users\kna09\Desktop\Paint_The_City_VR_BE_Test/Assets/OBJFiles/2023-02-18-08-03-40/artwork.obj
+  mtl_file: C:\Users\kna09\Desktop\Paint_The_City_VR_BE_Test/Assets/OBJFiles/2023-02-18-08-03-40/artwork.mtl
   objDone: 0
   publicUncheck: {fileID: 1743294229}
   privateUncheck: {fileID: 1699527479}
@@ -3786,7 +3786,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 518996881}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf881262de18ebe4aa192218281ea7d8, type: 3}
+  m_Script: {fileID: 11500000, guid: 070ac7700bfba224bbc4e0d23e5347be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ArtimgPanel: {fileID: 518996881}
@@ -5422,10 +5422,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 989650555}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82fa7b83191c4ca4b81d3604b43248dc, type: 3}
+  m_Script: {fileID: 11500000, guid: bed6c31c6031b1f418e00cd0726f9aea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loginPanel: {fileID: 0}
+  loginPanel: {fileID: 1706715841}
   ID_field: {fileID: 457713068}
   LoginButton: {fileID: 1144774798}
 --- !u!114 &989650558
@@ -8670,7 +8670,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1706715841}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82fa7b83191c4ca4b81d3604b43248dc, type: 3}
+  m_Script: {fileID: 11500000, guid: bed6c31c6031b1f418e00cd0726f9aea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   loginPanel: {fileID: 1706715841}
