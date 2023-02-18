@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace PaintTneCity
+namespace PaintTheCity
 {
     public class LoginManager : MonoBehaviour
     {

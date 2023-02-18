@@ -13,7 +13,8 @@ using Amazon;
 using Amazon.CognitoIdentity;
 using Aspose.ThreeD;
 
-namespace PaintTneCity{
+namespace PaintTheCity
+{
     public class UploadArtwork : MonoBehaviour
     {
         public GameObject DonePanel;
@@ -32,7 +33,7 @@ namespace PaintTneCity{
         public string bucketName = "ptc-s3-bucket";
         public string fbx_file = "";
         public static string date_time = DateTime.Now.ToString("yyyy-MM-dd-hh-mm-ss");
-        public string fbx_directory = System.Environment.CurrentDirectory + "[To-do 0]";
+        public string fbx_directory = System.Environment.CurrentDirectory + "[To-do 1]";
         public string obj_directory = System.Environment.CurrentDirectory + "/Assets/OBJFiles/" + date_time;
         public string obj_file = System.Environment.CurrentDirectory + "/Assets/OBJFiles/" + date_time + "/artwork.obj";
         public string mtl_file = System.Environment.CurrentDirectory + "/Assets/OBJFiles/" + date_time + "/artwork.mtl";
@@ -69,19 +70,9 @@ namespace PaintTneCity{
             privateCheck.gameObject.SetActive(true);
         }
 
-        public void DoneButtonClick()
+        public void CancelButtonClick()
         {
-            artwork_name_field.text = ""; 
-            DonePanel.gameObject.SetActive(true);
-
-            if (LoginManager.user_id == "")
-            {
-                privateButton.gameObject.SetActive(false);
-            }
-            else
-            {
-                privateButton.gameObject.SetActive(true);
-            }
+            DonePanel.gameObject.SetActive(false);
         }
 
         public void CloseButtonClick()
@@ -126,7 +117,7 @@ namespace PaintTneCity{
                 user_id = LoginManager.user_id;
             }
             
-            string artimg_url = "[To-do 1]";
+            string artimg_url = ArtimgManager.artItemName;
 
             string artwork_name = artwork_name_field.text;
 
