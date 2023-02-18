@@ -33,10 +33,10 @@ namespace PaintTheCity
         public string bucketName = "ptc-s3-bucket";
         public string fbx_file = "";
         public static string date_time = DateTime.Now.ToString("yyyy-MM-dd-hh-mm-ss");
-        public string fbx_directory = System.Environment.CurrentDirectory + "/Assets/FBXFiles/";
-        public string obj_directory = System.Environment.CurrentDirectory + "/Assets/OBJFiles/" + date_time;
-        public string obj_file = System.Environment.CurrentDirectory + "/Assets/OBJFiles/" + date_time + "/artwork.obj";
-        public string mtl_file = System.Environment.CurrentDirectory + "/Assets/OBJFiles/" + date_time + "/artwork.mtl";
+        public string fbx_directory = "";
+        public string obj_directory = "";
+        public string obj_file = "";
+        public string mtl_file = "";
         
         public bool objDone = false;
 
@@ -82,6 +82,7 @@ namespace PaintTheCity
 
         public void UploadButtonClick()
         {
+            fbx_directory = System.Environment.CurrentDirectory + "/Assets/FBXFiles/";
             // 1) fbx -> obj 파일 변환 
             convertFbxToObj();
 
